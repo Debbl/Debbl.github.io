@@ -1,0 +1,39 @@
+@import "~normalize.css";
+
+
+/* 样式的重置 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+i, em {
+    font-style: normal;
+}
+
+input, textarea, button, select, a {
+    outline: none;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
