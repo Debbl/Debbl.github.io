@@ -1,4 +1,4 @@
-name: Hexo-Blog-Deploy-Actions
+name: About-Me-Actions
 
 on:
   push:
