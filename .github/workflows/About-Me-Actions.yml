@@ -41,6 +41,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          cname: aiwan.run
+          cname: me.aiwan.run
           commit_message: ${{ github.event.head_commit.message }}
           publish_branch: gh-pages  # deploying branch
