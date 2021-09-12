@@ -1,5 +1,5 @@
 {
-  "name": "me",
+  "name": "about-me",
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
@@ -37,5 +37,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "keywords": [],
+  "description": "这是关于我的页面"
 }
