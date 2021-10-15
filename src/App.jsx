@@ -1,14 +1,14 @@
-import React, { memo } from 'react';
-import "./assets/css/reset.css";
+import React, { memo } from 'react'
+import "./assets/css/reset.css"
 
-import Mine from './pages/mine';
-import Footer from './components/footer';
+import Home from './pages/Home'
+import Footer from './components/footer'
 
 export default memo(function App() {
   return (
     <div>
-      <Mine/>
-      <Footer/>
+      <Home />
+      <Footer />
     </div>
   )
 })
