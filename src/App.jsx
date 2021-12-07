@@ -1,8 +1,9 @@
-import React, { memo } from 'react'
-import "./assets/css/reset.css"
-
-import Home from './pages/Home'
-import Footer from './components/footer'
+import React, {memo} from 'react';
+import './assets/css/reset.css';
+import './assets/css/index.css';
+import Home from './pages/Home';
+import Footer from './components/footer';
+import './assets/icon/iconfont';
 
 export default memo(function App() {
   return (
@@ -10,5 +11,5 @@ export default memo(function App() {
       <Home />
       <Footer />
     </div>
-  )
-})
+  );
+});

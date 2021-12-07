@@ -1,5 +1,4 @@
-import styled from 'styled-components'
-
+import styled from 'styled-components';
 
 const ShowItemWrapper = styled.a`
   display: inline-block;
@@ -8,13 +7,11 @@ const ShowItemWrapper = styled.a`
   line-height: 100px;
   border-radius: 12px;
   text-align: center;
-  background-color: #49B1F5;
+  background-color: #49b1f5;
   outline: none;
   span {
-    color: #fff
+    color: #fff;
   }
-`
+`;
 
-export {
-  ShowItemWrapper
-}
+export {ShowItemWrapper};

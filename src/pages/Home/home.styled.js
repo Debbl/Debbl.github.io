@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const HomeWrapper = styled.div`
   display: flex;
@@ -23,14 +23,17 @@ const HomeWrapper = styled.div`
   }
 
   .two-wrap::after {
-      content: "";
-      display: inline-block;
-      width: 200px;
-      height: 100px;
+    content: '';
+    display: inline-block;
+    width: 200px;
+    height: 100px;
   }
-`
+  .icon-github {
+    position: absolute;
+    width: 60px;
+    right: 30px;
+    bottom: 120px;
+  }
+`;
 
-export {
-  HomeWrapper
-}
-
+export {HomeWrapper};

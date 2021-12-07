@@ -1,6 +1,5 @@
-import React, { memo } from 'react';
-import { FooterWrapper } from './footer.styled';
-
+import React, {memo} from 'react';
+import {FooterWrapper} from './footer.styled';
 
 export default memo(function Footer() {
   return (
@@ -17,5 +16,5 @@ export default memo(function Footer() {
         </a>
       </div>
     </FooterWrapper>
-  )
-})
+  );
+});

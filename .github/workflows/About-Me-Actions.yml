@@ -43,4 +43,4 @@ jobs:
           publish_dir: ./build
           cname: aiwan.run
           commit_message: ${{ github.event.head_commit.message }}
-          publish_branch: gh-pages  # deploying branch
+          publish_branch: gh-pages # deploying branch
